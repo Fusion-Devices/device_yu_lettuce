@@ -17,7 +17,7 @@ $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 # Inherit some common Fusion stuff.
 $(call inherit-product, vendor/fusion/config/common_full_phone.mk)
 
-PRODUCT_NAME := fusion_lettuce
+PRODUCT_NAME := lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
