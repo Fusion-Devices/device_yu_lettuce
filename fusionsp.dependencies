@@ -1,10 +1,32 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-  },{
-    "repository": "android_kernel_cyanogen_msm8916",
+    "repository": "Fusion-Devices/device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch": "lp5.1"
+  },
+  {
+    "repository": "Fusion-Devices/kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916",
-    "branch": "cm-12.1-amss-1.0.2"
+    "branch": "lp5.1"
+  },
+  {
+    "repository": "Fusion-Rom/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "lp5.1"
+  },
+  {
+    "repository": "Cyanogenmod/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "branch": "cm-12.1"
+  },
+  {
+    "repository": "TEAM-RAZOR-DEVICES/proprietary_vendor_yu",
+    "target_path": "vendor/yu",
+    "revision": "lp5.1"
+  },
+  {
+    "repository": "Cyanogenmo/android_external_mm-dash",
+    "target_path": "external/mm-dash",
+    "branch": "cm-12.1"
   }
 ]
